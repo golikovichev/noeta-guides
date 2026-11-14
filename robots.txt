@@ -1,0 +1,4 @@
+﻿User-agent: *
+Allow: /
+Sitemap: https://golikovichev.github.io/noeta-guides/sitemap.xml
+
