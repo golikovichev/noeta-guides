@@ -34,6 +34,12 @@ footer { margin-top: 3rem; color: #6b645b; font-size: .9rem; }
   th, td { border-bottom-color: rgba(255,255,255,.14); }
   .disclaimer { background: rgba(143,179,159,.1); }
   .cta.secondary { color: #8fb39f; border-color: #8fb39f; }
+}
+@media print {
+  body { max-width: none; padding: 0; color: #000; background: #fff; }
+  .meta, footer, .cta { display: none; }
+  a { color: #000; text-decoration: none; }
+  h2 { color: #000; }
 }</style>
 </head>
 <body>
